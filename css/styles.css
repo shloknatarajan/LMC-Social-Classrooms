@@ -61,6 +61,11 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+a:link {
+  color: blue;
+  text-decoration: none !important;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -208,7 +213,7 @@ sup {
 }
 
 a {
-  color: #212529;
+  color: rgba(0, 0, 255, 0.801);
   text-decoration: none;
 }
 a:hover {
@@ -10811,4 +10816,20 @@ header.masthead .site-heading .h1 {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
+}
+
+#exampleslist p {
+  margin: 0px;
+}
+
+#exampleslist h4 {
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+
+.meainheader {
+  text-align: center;
+}
+#submitform {
+  margin-top: 3%;
 }
